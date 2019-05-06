@@ -78,18 +78,23 @@ input{
 .menu h2{
   color: purple;
 }
-
 .menu img{
-  height: 220px;
+  height: 250px;
   width: 250px;
 }
 
-
+.summary{
+  height:200px;
+  background-color: forestgreen;
+  padding: 0 3000px;
+  margin: 0 -3000px;
+}
 footer{
   clear: both;
+  height: 20px;
   background: navy;
   text-align: center;
   color: white;
-  padding: 0px;
+  padding: 10px;
   margin-bottom: 0px;
 }
