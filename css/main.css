@@ -1,9 +1,12 @@
 body{
   margin: 0px;
   padding: 0px;
+  background: url(../img/background.jpg);
+  background-size: cover; 
   background-color: lightgray;
   background-size: cover;
   font-family: arial;
+  overflow-x:hidden;
   }
 header{
   background: navy;
@@ -24,7 +27,7 @@ ul{
 }
 ul li{
   float: left;
-  width: 200px;
+  width: 150px;
   height: 40px;
   background-color: navy;
   opacity: .8;
@@ -47,20 +50,46 @@ ul li:hover ul li{
   display: block;
 }
 section{
-
-  background: url(../img/tourism.jpg);
-  background-size: cover;
-  height: 500px;
-  margin: 0px;
-  padding: 0px;
+  height: 200px;
   text-align: center;
+  margin-top: 100px;
+  color: white;
 }
+/*.menu{
+  ackground-color: white;
+  padding: 0 3000px;
+  margin: 0 -3000px;
+  height: 300px;
+  padding: 0px;
+}*/
+
+input{
+  margin-top: 150px;
+  background-color: navy;
+  border: 5;
+  border-color: darkorange;
+  padding: 10px 30px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  display: inline-block;
+  border-radius: 12px;
+}
+.menu h2{
+  color: purple;
+}
+
+.menu img{
+  height: 220px;
+  width: 250px;
+}
+
 
 footer{
   clear: both;
   background: navy;
   text-align: center;
   color: white;
-  padding: 10px;
-  margin-bottom: 10px;
+  padding: 0px;
+  margin-bottom: 0px;
 }
