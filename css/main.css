@@ -1,21 +1,29 @@
 body{
   margin: 0px;
   padding: 0px;
-  background: url(../img/background.jpg);
+  background-color: #FFFFFF;
   background-size: cover; 
-  background-color: lightgray;
-  background-size: cover;
-  font-family: arial;
+  font-family: sans-serif;
   overflow-x:hidden;
   }
 header{
+  font-weight: bold;
   background: navy;
-  height: 50px;
+  height: 60px;
   margin: 0px;
+  margin-bottom: 0px;
 }
 
   #left-nav{
     float: left;
+    margin-top: 10px;
+  }
+
+  .logo-brand{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
   }
 
 ul{
@@ -31,7 +39,7 @@ ul li{
   height: 40px;
   background-color: navy;
   opacity: .8;
-  line-height: 40px;
+  line-height: 50px;
   text-align: center;
   font-size: 20px;
 }
@@ -49,46 +57,71 @@ ul li ul li{
 ul li:hover ul li{
   display: block;
 }
-section{
-  height: 200px;
-  text-align: center;
-  margin-top: 100px;
-  color: white;
+.backimg{
+  background: url(../img/head.jpg);
+  background-size: cover;
+  height: 400px;
 }
-/*.menu{
-  ackground-color: white;
-  padding: 0 3000px;
-  margin: 0 -3000px;
-  height: 300px;
-  padding: 0px;
-}*/
+.content{
+  text-align: center;
+  color: black;
+  margin-top: 250px;
+}
 
 input{
-  margin-top: 150px;
-  background-color: navy;
+  background-color: royalblue;
   border: 5;
   border-color: darkorange;
   padding: 10px 30px;
   text-align: center;
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   display: inline-block;
-  border-radius: 12px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+section{
+  text-align: center;
+}
+.menu{
+  height: 300px;
+  margin-top: 0px;
 }
 .menu h2{
   color: purple;
+  text-shadow: 0px 2px 5px red;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 .menu img{
-  height: 250px;
-  width: 250px;
+  height: 210px;
+  width: 220px;
 }
-
+.menu a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: navy;
+}
 .summary{
-  height:200px;
-  background-color: forestgreen;
+  height:300px;
+  background-color: mediumseagreen;
   padding: 0 3000px;
   margin: 0 -3000px;
+  box-sizing: border-box;
 }
+.column{
+  background: seagreen;
+  display:table-cell;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  vertical-align: middle;
+  border-right: 10px solid mediumseagreen;
+  border-left: 10px solid mediumseagreen;
+}
+
 footer{
   clear: both;
   height: 20px;
@@ -98,3 +131,4 @@ footer{
   padding: 10px;
   margin-bottom: 0px;
 }
+
